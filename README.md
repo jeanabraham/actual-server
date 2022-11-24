@@ -11,7 +11,7 @@ We are working on simpler one-button click deployments of Actual. This will redu
 It's very easy to get started. Clone this repo, install deps, and start it:
 
 ```
-git clone https://github.com/actualbudget/actual-server.git
+git clone https://github.com/jeanabraham/actual-server.git
 cd actual-server
 yarn install
 yarn start
@@ -23,7 +23,7 @@ Go to https://localhost:5006 in your browser and you'll see Actual.
 To run using a Docker container you can use following commands;
 
 ```
-git clone https://github.com/actualbudget/actual-server.git
+git clone https://github.com/jeanabraham/actual-server.git
 cd actual-server
 docker build -t actual-server .
 docker run -p 5006:5006 actual-server
